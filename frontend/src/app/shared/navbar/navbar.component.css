@@ -1,0 +1,41 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.navbar-container p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-gray-light-color);
+}
+
+.navbar-container p span {
+  color: var(--text-dark-dark-color);
+}
+
+.navbar-container h1 {
+  margin: 0;
+  font-size: 24px;
+  color: var(--text-black);
+}
+
+.navbar-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  gap: 10px;
+  background-color: var(--main-color);
+  color: var(--text-white);
+  cursor: pointer;
+}
+
+.navbar-container button img {
+  width: 40px;
+  border-radius: 50%;
+}
