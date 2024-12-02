@@ -1,4 +1,7 @@
-<app-sidebar></app-sidebar>
+<div class="layout-container">
+  <app-sidebar (pageChange)="navbar.updatePage($event)"></app-sidebar>
+  <app-navbar #navbar></app-navbar>
+</div>
 <app-dashboard></app-dashboard>
 
 <router-outlet></router-outlet>

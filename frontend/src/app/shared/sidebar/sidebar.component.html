@@ -2,11 +2,9 @@
   <img src="/logo.png" alt="logo do projeto participe.ai">
   <hr>
   <ul>
-    <li>
-      <span class="logo">Menu principal</span>
-    </li>
+    <li class="logo">Menu principal</li>
     <li *ngFor="let menu of menuItems; let i = index" [class.active]="isActive[i]">
-      <button (click)="toggleSubMenu(i)" class="dropdown-btn">
+      <button (click)="toggleSubMenu(i); onMenuClick(menu)" class="dropdown-btn">
         <i [class]="menu.icon"></i>
         <span>{{ menu.title }}</span>
         <i
@@ -17,7 +15,7 @@
       </button>
       <ul class="sub-menu" *ngIf="menu.subMenu" [class.show]="isActive[i]">
         <li *ngFor="let subItem of menu.subMenu">
-          <a href="#">{{ subItem }}</a>
+          <a href="#" (click)="onMenuClick(menu, subItem)">{{ subItem }}</a>
         </li>
       </ul>
     </li>

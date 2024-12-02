@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-sidebar',
@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './sidebar.component.css'
 })
 export class SidebarComponent {
+  @Output() pageChange = new EventEmitter<{ title: string; subTitle?: string }>();
+
   menuItems = [
     {
       title: 'Painel de controle',
@@ -30,7 +32,7 @@ export class SidebarComponent {
     {
       title: 'Feedback',
       icon: 'fa-solid fa-comments',
-    }
+    },
   ];
 
   isActive: boolean[] = [];
@@ -43,5 +45,12 @@ export class SidebarComponent {
     if (this.menuItems[index].subMenu) {
       this.isActive[index] = !this.isActive[index];
     }
+  }
+
+  onMenuClick(menu: any, subItem?: string): void {
+    this.pageChange.emit({
+      title: menu.title,
+      subTitle: subItem?.replace('• ', '') || undefined,
+    });
   }
 }
