@@ -1,0 +1,151 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e7e7e7;
+  color: #fff;
+}
+
+.login-card {
+  display: flex;
+  background-color: #fff;
+  color: #333;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  height: 90%;
+  overflow: hidden;
+}
+
+.container-form{
+  flex: 1;
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.login-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.login-form h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.login-form .highlight {
+  color: #4caf50; 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 20px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-remember label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-remember input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #4caf50; 
+  cursor: pointer ;
+
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.btn-login {
+  background-color: #01403A;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #014b43;
+}
+
+.register-link {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.login-image {
+  flex: 1;
+  background-color: #01403A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+}
+
+footer span{
+  color: #4caf50;
+}
