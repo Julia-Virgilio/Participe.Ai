@@ -1,0 +1,36 @@
+<nav class="sidebar">
+  <img src="/logo.png" alt="logo do projeto participe.ai">
+  <hr>
+  <ul>
+    <li>
+      <span class="logo">Menu principal</span>
+    </li>
+    <li *ngFor="let menu of menuItems; let i = index" [class.active]="isActive[i]">
+      <button (click)="toggleSubMenu(i)" class="dropdown-btn">
+        <i [class]="menu.icon"></i>
+        <span>{{ menu.title }}</span>
+        <i
+          *ngIf="menu.subMenu"
+          class="fa-solid fa-chevron-down"
+          [class.rotate]="isActive[i]"
+        ></i>
+      </button>
+      <ul class="sub-menu" *ngIf="menu.subMenu" [class.show]="isActive[i]">
+        <li *ngFor="let subItem of menu.subMenu">
+          <a href="#">{{ subItem }}</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <div class="faq-box">
+    <img src="/faq-question.png" alt="Ilustração FAQ" class="faq-image">
+    <div class="faq-content">
+      <p>Tem alguma dúvida?</p>
+      <span>Confira nossa FAQ!</span>
+      <a href="/faq" class="faq-button">
+        <i class="fa-regular fa-circle-question"></i>
+        Central de ajuda
+      </a>
+    </div>
+  </div>
+</nav>
