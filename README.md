@@ -8,6 +8,12 @@ Multiplataforma de serviços básicos inclusiva, voltado para a gestão conscien
    git clone https://github.com/Julia-Virgilio/API-ADS-Labs](https://github.com/Julia-Virgilio/Participe.Ai
 2. Entre no diretório
 
+
+## Branch 
+1. feature - Partes da aplicação(controle de produção)
+2. develop - Desenvolvimento da aplicação(ataulização das feature)
+3. prodution - Vercionamento já testado para uso( atualização do develop/test)
+
 ## Uso e funcionalidades
 
 ## Tecnologias usadas:
@@ -16,3 +22,4 @@ Multiplataforma de serviços básicos inclusiva, voltado para a gestão conscien
 Desenvolvido por:
 
 [Júlia Carvalho](https://github.com/Julia-Virgilio)
+[Keven Santana](https://github.com/kevensantana)
