@@ -1,4 +1,4 @@
-.sidebar{
+.sidebar {
   width: 260px;
   padding-left: 1rem;
   background-color: var(--main-color);
@@ -8,6 +8,7 @@
   margin-left: 10px;
   border-radius: 25px;
   padding-bottom: 1px;
+  overflow: hidden;
 }
 
 .sidebar img {
