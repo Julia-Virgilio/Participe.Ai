@@ -15,3 +15,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  background: #F3F9F7;
+}
