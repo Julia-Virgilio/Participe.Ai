@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component, EventEmitter, Output } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-sidebar',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.css'
 })
@@ -14,26 +15,35 @@ export class SidebarComponent {
     {
       title: 'Painel de controle',
       icon: 'fa-solid fa-chart-simple',
-      subMenu: ['• Gestão de água', '• Gestão de energia', '• Coleta de lixo'],
+      subMenu: [
+        { label: 'Gestão de água', link: '/dashboard/water' },
+        { label: 'Gestão de energia', link: '/dashboard/energy' },
+        { label: 'Coleta de lixo', link: '/dashboard/trash' },
+      ],
     },
     {
       title: 'Sobre',
       icon: 'fa-solid fa-layer-group',
-      subMenu: ['• Vantagens por ponto'],
+      subMenu: [{ label: 'Vantagens por ponto', link: '/about/advantages' }],
     },
     {
       title: 'Centro de aprendizado',
       icon: 'fa-solid fa-book-bookmark',
+      link: '/aprendizado',
     },
     {
       title: 'Mapa',
       icon: 'fa-solid fa-street-view',
+      link: '/map',
     },
     {
       title: 'Feedback',
       icon: 'fa-solid fa-comments',
+      link: '/feedback',
     },
   ];
+  
+  
 
   isActive: boolean[] = [];
 

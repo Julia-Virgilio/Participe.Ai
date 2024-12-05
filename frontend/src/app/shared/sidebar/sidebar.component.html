@@ -4,20 +4,24 @@
   <ul>
     <li class="logo">Menu principal</li>
     <li *ngFor="let menu of menuItems; let i = index" [class.active]="isActive[i]">
-      <button (click)="toggleSubMenu(i); onMenuClick(menu)" class="dropdown-btn">
-        <i [class]="menu.icon"></i>
-        <span>{{ menu.title }}</span>
-        <i
-          *ngIf="menu.subMenu"
-          class="fa-solid fa-chevron-down"
-          [class.rotate]="isActive[i]"
-        ></i>
-      </button>
-      <ul class="sub-menu" *ngIf="menu.subMenu" [class.show]="isActive[i]">
-        <li *ngFor="let subItem of menu.subMenu">
-          <a href="#" (click)="onMenuClick(menu, subItem)">{{ subItem }}</a>
-        </li>
-      </ul>
+      <ng-container *ngIf="menu.subMenu; else noSubMenu">
+        <button (click)="toggleSubMenu(i)" class="dropdown-btn">
+          <i [class]="menu.icon"></i>
+          <span>{{ menu.title }}</span>
+          <i class="fa-solid fa-chevron-down" [class.rotate]="isActive[i]"></i>
+        </button>
+        <ul class="sub-menu" *ngIf="menu.subMenu" [class.show]="isActive[i]">
+          <li *ngFor="let subItem of menu.subMenu">
+            <a [routerLink]="subItem.link" routerLinkActive="active">{{ subItem.label }}</a>
+          </li>
+        </ul>
+      </ng-container>
+      <ng-template #noSubMenu>
+        <a [routerLink]="menu.link" routerLinkActive="active" class="dropdown-btn">
+          <i [class]="menu.icon"></i>
+          <span>{{ menu.title }}</span>
+        </a>
+      </ng-template>
     </li>
   </ul>
   <div class="faq-box">
@@ -25,7 +29,7 @@
     <div class="faq-content">
       <p>Tem alguma dúvida?</p>
       <span>Confira nossa FAQ!</span>
-      <a href="/faq" class="faq-button">
+      <a routerLink="/faq" routerLinkActive="active" class="faq-button">
         <i class="fa-regular fa-circle-question"></i>
         Central de ajuda
       </a>

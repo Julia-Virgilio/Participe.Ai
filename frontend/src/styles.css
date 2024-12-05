@@ -16,6 +16,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #F3F9F7;
+}
+
+a{
+  text-decoration: none;
 }
