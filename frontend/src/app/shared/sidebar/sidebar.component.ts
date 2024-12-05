@@ -16,9 +16,9 @@ export class SidebarComponent {
       title: 'Painel de controle',
       icon: 'fa-solid fa-chart-simple',
       subMenu: [
-        { label: 'Gestão de água', link: '/dashboard/water' },
-        { label: 'Gestão de energia', link: '/dashboard/energy' },
-        { label: 'Coleta de lixo', link: '/dashboard/trash' },
+        { label: 'Gestão de água', link: '/agua' },
+        { label: 'Gestão de energia', link: '/energia' },
+        { label: 'Coleta de lixo', link: '/reciclagem' },
       ],
     },
     {
