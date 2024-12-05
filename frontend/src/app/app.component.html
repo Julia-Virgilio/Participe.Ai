@@ -1,8 +1,11 @@
 <div class="layout-container">
-  <app-sidebar (pageChange)="navbar.updatePage($event)"></app-sidebar>
+  <div class="col">
+    <app-sidebar (pageChange)="navbar.updatePage($event)"></app-sidebar>
+  </div>
   <div class="content-container">
     <app-navbar #navbar></app-navbar>
-    <app-dashboard></app-dashboard>
+    <!-- <app-dashboard></app-dashboard> -->
+    <app-aprendizado></app-aprendizado>
   </div>
 </div>
 <router-outlet></router-outlet>

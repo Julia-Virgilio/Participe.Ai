@@ -10,7 +10,7 @@ import { AprendizadoComponent } from './pages/aprendizado/aprendizado.component'
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SidebarComponent, NavbarComponent, DashboardComponent],
+  imports: [RouterOutlet, SidebarComponent, NavbarComponent, DashboardComponent, AprendizadoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
