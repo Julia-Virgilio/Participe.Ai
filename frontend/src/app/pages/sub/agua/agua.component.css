@@ -1,0 +1,313 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px ;
+  background-color: #f5f5f5;
+}
+
+.device-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #28a745;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+  margin-right: 10px; /* Espaçamento entre o toggle e o texto */
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #4CAF50;
+}
+
+input:checked + .slider:before {
+  transform: translateX(14px);
+}
+
+/* Estilo do texto */
+.label-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.label-text strong {
+  font-weight: bold;
+}
+
+.cards-row {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  gap: 20px;
+}
+
+.card-box{
+  width: 30%;
+  padding: 20px;
+
+
+}
+
+.card-box2{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+.monthly-summary{
+  background-color: #8EDCFC;
+  height: 200px;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+
+.card {
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card .value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.water-level{
+  
+  background-color: #8EDCFC;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 1rem;
+  
+  
+}
+
+.monthly-consumption{
+  width: 70%;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.monthly-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.monthly-info select{
+  width: 200px;
+  padding: 10px 5px;
+  font-size: 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.monthly-info h3{
+  font-size: 24px;
+}
+.monthly-consumption .chart {
+  margin-top: 20px;
+  height: 310px;
+  background-color: #eaeaea;
+  border-radius: 8px;
+}
+
+.tips {
+  text-align: center;
+  padding: 20px;
+}
+
+.tips .view-more {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tips .view-more:hover {
+  background-color: #0056b3;
+}
+
+.container-box{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.box{
+  width: 50%;
+  height: 100px;
+}
+
+/* Estilo para o container dos cards de economia */
+.savings-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+
+/* Estilo individual dos cards */
+.savings-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  flex: 1; 
+}
+
+/* Ícones */
+.savings-card .icon {
+  background-color: #eaf7ff;
+  border-radius: 20%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.savings-card .icon i {
+  font-size: 30px;
+  color: #007bff;
+}
+
+/* Conteúdo do card */
+.savings-card .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.savings-card .content .title {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.savings-card .content .value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 5px 0 0;
+}
+
+/* Percentuais positivos/negativos */
+.savings-card .content .percentage {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.savings-card .content .percentage.positive {
+  color: #28a745; /* Verde para números positivos */
+}
+
+.savings-card .content .percentage.negative {
+  color: #dc3545; /* Vermelho para números negativos */
+}
