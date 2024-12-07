@@ -1,0 +1,194 @@
+.sidebar {
+  padding-left: 1rem;
+  background-color: var(--main-color);
+  position: fixed;
+  top: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 25px;
+  padding-bottom: 1px;
+  overflow: hidden;
+}
+
+.sidebar img {
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  padding: 20px 0;
+}
+
+.sidebar hr {
+  margin-right: 1rem;
+}
+
+.sidebar ul{
+  list-style: none;
+}
+
+.sidebar > ul > li:first-child{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: -10px;
+}
+
+.sidebar a, .sidebar .dropdown-btn, .sidebar .logo{
+  padding: 1em;
+  text-decoration: none;
+  color: var(--text-white);
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.dropdown-btn{
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.sidebar a span, .sidebar .dropdown-btn span{
+  font-size: 14px;
+  font-weight: 400;
+  flex-grow: 1;
+}
+
+.sidebar a:hover, .sidebar .dropdown-btn:hover{
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.sidebar a:hover {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.sidebar .sub-menu {
+  display: none;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.sidebar .sub-menu.show {
+  display: block;
+}
+
+.sidebar .sub-menu a{
+  padding-left: 2em;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.sidebar a:hover, .sidebar .dropdown-btn:hover {
+  position: relative;
+  background-color: var(--text-white);
+  color: var(--text-black);
+  overflow: visible;
+}
+
+.sidebar a:hover:not(.faq-button)::before,
+.sidebar .dropdown-btn:hover:not(.faq-button)::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  width: 50px;
+  height: 50px;
+  right: 0;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 35px 35px 0 10px var(--text-white);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.sidebar a:hover:not(.faq-button)::after,
+.sidebar .dropdown-btn:hover:not(.faq-button)::after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  width: 50px;
+  height: 50px;
+  right: 0;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 35px -35px 0 10px var(--text-white);
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+.faq-box {
+  position: relative;
+  background-color: var(--text-white);
+  border-radius: 25px;
+  width: 210px;
+  height: 155px;
+  margin: 70px 0px 10px;
+  text-align: center;
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.faq-image {
+  position: absolute;
+  top: -100px;
+  left: 12.5%;
+  transform: translateX(-50%);
+  width: 60px;
+  z-index: 2;
+}
+
+.faq-box p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: var(--text-black);
+}
+
+.faq-box span {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+  color: var(--text-gray-light-color);
+}
+
+.faq-button {
+  display: inline-block;
+  background-color: var(--main-color);
+  color: var(--text-white);
+  width: 170px;
+  height: 55px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 55px;
+  transition: background-color 0.3s ease;
+  border: none;
+  box-shadow: none;
+}
+
+.faq-button i {
+  font-size: 20px;
+}
+
+.faq-button:hover {
+  background-color: var(--secondary-color) !important;
+  color: var(--text-white) !important;
+}
+

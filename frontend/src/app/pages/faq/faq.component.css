@@ -1,0 +1,132 @@
+.faq-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.faq {
+  width: 45%;
+}
+
+.faq h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 20px 15px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--main-color);
+  border-left: 14px solid var(--main-color);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+.accordion-header i {
+  transition: transform 0.3s ease;
+}
+
+.accordion-header i.rotate {
+  transform: rotate(180deg); /* Ícone rotaciona para indicar expansão */
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: #D9D9D9;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 0 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+
+}
+
+.accordion-content.open {
+  max-height: 150px;
+  padding: 20px 15px;
+}
+
+.faq-form {
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  
+}
+
+.faq-form h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.faq-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.faq-form input,
+.faq-form select,
+.faq-form button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.faq-form textarea{
+  width: 100%;
+  margin-bottom: 15px;
+  height: 200px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.faq-form-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-form-button button {
+  width: 50%; 
+
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.faq-form button:hover {
+  background-color: #005f73;
+}
+
+.faq-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

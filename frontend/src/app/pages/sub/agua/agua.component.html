@@ -1,0 +1,107 @@
+<div class="dashboard-container">
+  <!-- Cabeçalho do Dispositivo -->
+  <div class="device-status">
+    <h2>Dispositivo</h2>
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="confirmDelete" />
+        <span class="slider"></span>
+      </label>
+      <span class="label-text">
+        <strong>Ativo</strong>
+      </span>
+    </div>
+  </div>
+
+  <div class="container-box">
+    <div class="box">
+
+    </div>
+    <div class="savings-cards-container">
+      <!-- Card 1: Economia do mês -->
+      <div class="savings-card">
+        <div class="content">
+          <p class="title">Economia do mês (R$)</p>
+          <p class="value">R$53,00 <span class="percentage positive">+15%</span></p>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-money-bill-wave"></i> <!-- Ícone representando dinheiro -->
+        </div>
+      </div>
+  
+      <!-- Card 2: Economia em litros -->
+      <div class="savings-card">
+        <div class="content">
+          <p class="title">Economia em litros (L)</p>
+          <p class="value">2,3 L <span class="percentage positive">+20%</span></p>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-droplet"></i> <!-- Ícone representando água -->
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <!-- Linha de Cards -->
+  <div class="cards-row">
+    <!-- Card 1: Nível de água -->
+    <div class="card card-box">
+      <div class="water-level">
+        <h3>Nível de água do tanque</h3>
+        <p class="value">19.70 Litros</p>
+      </div>
+  
+      <!-- Card 2: Registro diário -->
+      <div class=" daily-record">
+        <h3>Registro diário (24h)</h3>
+        <ul>
+          <li>20 de nov. de 2024: <span>7.0 L</span></li>
+          <li>19 de nov. de 2024: <span>6.0 L</span></li>
+          <li>18 de nov. de 2024: <span>6.7 L</span></li>
+        </ul>
+      </div> 
+    </div>
+
+    <div class="card monthly-consumption">
+      <div class="monthly-info">
+        <h3>Consumo mensal</h3>
+        <select>
+          <option value="janeiro">Janeiro</option>
+          <option value="fevereiro">Fevereiro</option>
+          <option value="marco">Março</option>
+        </select>
+      </div>
+      <div class="chart">
+        <!-- Insira o componente do gráfico aqui -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Linha inferior de Cards -->
+  <div class="cards-row">
+    <div class="card card-box2">
+        <div class="monthly-summary">
+          <h3>Consumo mensal</h3>
+          <p class="value">19.70 Litros</p>
+        </div>
+  
+        <div class="monthly-record">
+          <h3>Registro mensal</h3>
+          <ul>
+            <li>20 de nov. de 2024: <span>7.0 L</span></li>
+            <li>19 de nov. de 2024: <span>6.0 L</span></li>
+            <li>18 de nov. de 2024: <span>6.7 L</span></li>
+          </ul>
+        </div>
+    </div>
+    <!-- Card 6: Dicas de economia -->
+    <div class="card tips">
+      <h3>Quer mais dicas de economia?</h3>
+      <p>
+        Descubra como a redução simples pode levar a
+        economias de água e dinheiro.
+      </p>
+      <button class="view-more">Veja mais</button>
+    </div>
+  </div>
+</div>
