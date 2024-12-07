@@ -1,0 +1,36 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  color: #343a40;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 1.5rem;
+}
+
+a {
+  padding: 10px 20px;
+  background-color: rgb(87, 0, 158);;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: rgb(73, 1, 133);;
+}

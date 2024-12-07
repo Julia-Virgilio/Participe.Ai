@@ -1,0 +1,134 @@
+
+
+.container{
+  padding: 0 2rem;
+  /* background-color: red; */
+}
+
+.banner {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.banner .banner-content {
+  width: 100%;
+  height: 230px;
+  border-radius: 25px;
+  background: linear-gradient(#01312C, #03A696);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  width: 500px;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.search-container .search-category {
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-bottom: 3px solid var(--main-color);
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-container .search-content {
+  display: flex;
+  gap: 10px;
+}
+
+.search-container .search-content input {
+  width: 340px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid var(--text-gray-light-color);
+  margin-bottom: 10px;
+  font-weight: 14px;
+  padding-left: 5px;
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 14px;
+  grid-row-gap: 30px;
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+
+.list-container .vid-list {
+  height: 350px;
+  border-radius: 25px;
+  background: var(--text-white);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.list-container .vid-list  .image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.list-container .vid-list .thumbnail{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.list-container .vid-list .flex-div {
+  align-items: flex-start;
+  margin-top: 7px;
+}
+
+.list-container .flex-div .vid-info {
+  color: #5a5a5a;
+  font-size: 13px;
+}
+
+.list-container .flex-div .vid-info .category {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.list-container .flex-div .vid-info .vid-title {
+  color: var(--text-black);
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.list-container .flex-div .vid-info button {
+  width: 170px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 8px;
+  border: none;
+  background: var(--main-color);
+  color: var(--text-white);
+}
+
