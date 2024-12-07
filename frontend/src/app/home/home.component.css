@@ -602,6 +602,11 @@ aside .pages {
   text-transform: uppercase;
 }
 
+.center-data h3 {
+  color: #FFF;
+  text-transform: uppercase;
+}
+
 .center-btn {
   gap: 1.5rem;
 }
@@ -685,6 +690,10 @@ aside .pages {
 
 .header-card .fa-solid  {
   font-size: 60px;
+}
+
+.header-card i {
+  color: #01403A;
 }
 
 .header-card h4 {
