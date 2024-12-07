@@ -17,10 +17,11 @@ Multiplataforma de serviços básicos inclusiva, voltado para a gestão conscien
 ## Uso e funcionalidades
 
 ## Tecnologias usadas:
-1. Front-end desenvolvido com [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+1. **Front-end:** Desenvolvido com [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0
+2. **Docker:** Utilizado para a dockerização da aplicação, garantindo consistência no ambiente de desenvolvimento, teste e produção.
 
 ## Autores:
 Desenvolvido por:
 
 [Júlia Carvalho](https://github.com/Julia-Virgilio), 
-[Keven Santana](https://github.com/kevensantana)
+[Keven Santana](https://github.com/kevensantana), [Lizandra Reis](https://github.com/lioreis), [Verônica Vilas](https://github.com/VeronicaVilas)
