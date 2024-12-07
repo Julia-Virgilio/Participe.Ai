@@ -24,19 +24,19 @@ Multiplataforma de serviços básicos inclusiva, voltado para a gestão conscien
 Desenvolvido por:
 
 [Lizandra Reis](https://github.com/lioreis)
-#
+
 [Júlia Carvalho](https://github.com/Julia-Virgilio)
-#
+
 [Keven Santana](https://github.com/kevensantana)
-#
+
 [Verônica Vilas](https://github.com/VeronicaVilas)
-#
-[Hercules Oliveira](https://github.com/herculesoliveira40), 
-#
+
+[Hercules Oliveira](https://github.com/herculesoliveira40)
+
 [Nilton Junior](https://github.com/niltonjrcalmon)
-#
+
 [Wallace Matos](https://github.com/wally963)
-#
+
 [Alisson Ribeiro](https://github.com/Alisson-S-Ribeiro)
-#
+
 [Helio Gonçalves](https://github.com/HelioHMH)
