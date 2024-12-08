@@ -18,4 +18,14 @@ services:
     volumes:
       - ./frontend:/frontend
       - /frontend/node_modules
+
+  chatbot:
+    build:
+      context: ./chatbotRasa
+      dockerfile: Dockerfile
+    container_name: chatbot
+    networks:
+      - participe-ai
+    ports:
+      - "5005:5005"
     
