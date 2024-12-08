@@ -20,7 +20,11 @@ Multiplataforma de serviços básicos inclusiva, voltado para a gestão conscien
 1. **Front-end:** Desenvolvido com [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0
 2. **Docker:** Utilizado para a dockerização da aplicação, e integração dos serviços.
 3. **Chatbot:** Desenvolvido com Rasa versão 3.0.0, responsável por gerenciar a inteligência artificial da aplicação.
-
+4. **Mobile:**
+ - React Native: Framework para desenvolvimento de aplicativos móveis.
+ - Expo: Ferramenta para facilitar o desenvolvimento, build e deploy de apps com React Native.
+ - TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScript.
+ - Node.js: Ambiente de execução de JavaScript no servidor.
 
 ## Autores:
 Desenvolvido por:
