@@ -44,9 +44,6 @@ export const routes: Routes = [
     ]
   },
 
-
-
-  
   // { path: 'sobre/gamificacao', component: gamificacao },
   // { path: 'feedback', component: FeedbackComponent },
 

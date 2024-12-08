@@ -26,7 +26,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
 }
 
 .signup-image img {
@@ -43,7 +42,7 @@
 }
 
 .signup-form {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,7 +64,7 @@
 
 .form-group input {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   font-size: 16px;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -105,6 +104,9 @@
   margin-top: 20px;
   font-size: 14px;
 }
+.signup-form img{
+  width: 50px;
+}
 
 .signup-form .login-link {
   color: #004d40;
@@ -116,8 +118,27 @@
   text-decoration: underline;
 }
 
+
+.logoAcess{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logoAcess img{
+  width: 40px;
+  cursor: pointer;
+}
+
+.logoAcessa img:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
 footer {
-  margin-top: 20px;
+  margin-top: 5px;
   text-align: center;
   font-size: 14px;
   color: #000;
