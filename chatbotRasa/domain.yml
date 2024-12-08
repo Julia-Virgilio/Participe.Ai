@@ -1,0 +1,36 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - despedida
+  - consumir_agua
+  - consumir_energia
+  - configurar_alertas
+  - pedir_relatorio
+  - fornecer_dados_consumo
+
+entities:
+  - tipo_consumo
+  - quantidade_consumo
+  - periodo
+
+responses:
+  utter_saudacao:
+    - text: "Olá! Como posso ajudar?"
+  utter_despedida:
+    - text: "Até logo! Se precisar de algo, estarei aqui."
+  utter_agradecimento:
+    - text: "Obrigado por me informar!"
+  utter_perguntar_consumo_atual:
+    - text: "Qual é o seu consumo atual de água ou energia?"
+  utter_configurar_alertas:
+    - text: "Por favor, me forneça os alertas que deseja configurar."
+  utter_perguntar_consumo_futuro:
+    - text: "Qual é a previsão que você deseja para seu consumo futuro?"
+
+actions:
+  - action_configurar_alertas
+  - action_fazer_previsao_consumo
+  - action_fornecer_dados_consumo
+  - action_salvar_dados_consumo
+

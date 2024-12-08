@@ -1,0 +1,17 @@
+version: "3.1"
+
+rules:
+  - rule: Saudação
+    steps:
+      - intent: saudacao
+      - action: utter_saudacao
+
+  - rule: Despedida
+    steps:
+      - intent: despedida
+      - action: utter_despedida
+
+  - rule: Configurar alertas
+    steps:
+      - intent: configurar_alertas
+      - action: utter_configurar_alertas

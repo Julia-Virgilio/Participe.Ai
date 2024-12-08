@@ -1,0 +1,17 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOT+vuDQ3syg+Mb00sbY2FgDUzx7b": "utter_perguntar_consumo_atual",
+    "eJyFjEEKwCAMBL/iA/oCv1JKCBJE0Cgx6UX8ewV797YDs3OPebnRhF7AoKmyd2MPYCzk3Q85dSVernWS5SReqN6Fyt1KEsBoOA8tUyWBRhKNFQX2uQKqYT62nw9jvULd": "action_listen",
+    "eJyljl0KwzAMg6+SA+wEucoYxqRuCbR28c8eFnr3ZXTdawt7k0DSp3vbbqmtSk/A4lU4p7YLYFwop6+Zqzlxz4aR9kzlbj2nImyxVAWcAreTrXAnhZV0CnZU2MsC6IHzn9snP0dRptLpAw5iB/ni6Iivz++eq4byK1+GPN4aW4tN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOT+vuDQ3syg+NS+1KD0zsbY2FgAzwyAY": "utter_perguntar_consumo_atual",
+    "eJyNjEEKwCAMBL/iA/oCv1JKCBJKwEaJSS/i3yvYe3vbgdnZ+9hCr0o3YDIuEkNfAwQviuGFzM1IpuuNdDosEy2GVKT5xQokpCfj+Mi5GSnU6boYKqx/ATTH/Cd/PANORVc=": "action_listen",
+    "eJyljksKwzAMRK/iA/QEvkopQjhKESRSkKVsjO9eQdp1Ft3NwJvPc8xHGYfRCdicVWoZlwDBnWr5mo27kyQbnSwZlrReS1PpsbMBCdmbcd7UhTsZHMmGOBpceQX0wO3/+pu3q5pQywMLLtp/43O+PnDwZjU=": "action_fazer_previsao_consumo",
+    "eJyljksKwzAMRK/iA/QEvkoJQjhKESRSkOUsanL3qqTtNoHuZuDN5973W+qr0QZYnFVy6ocAwYVy+piZq5ME2ypZMCxhPaeiUtvCBiRkD8b9pK65k8EabBNHgyOvgN5w/r/+5O2kJlTiwIij1u/4xdIJn+/rwXFF/YUvjwwvhp+Nxw==": "action_listen",
+    "eJyljksKwzAMRK/iA/QEvkopQjhqMDhS0Ccbk7vXkHbTTQLZaWDmPT37/kh9VdoAi1fhnPpxAONCOX1Dq+bEoxtGOjqVR/ScirDFUhVwDtxPWOFOCivpHOyocIwF0APbTfbJn29RpjLsE05iP/NFqGHb8H96WfH6APzjimA=": "action_listen",
+    "eJytkM0JwzAMhVfxAJnAq5QghKMGgyMHWcrFZPcK0l56caC96cH7Ed+jn1Pou9ABmDRXjqFfBzBuFMNblNyU2L3WSNyT2aXGkCo327IArobnoMtUSWAnWY0VBa5wBVTD8mP34M9nFabk6wsutX2Wb5Y2LAd+R/87MeRL7NiyY5hfXPSoxw==": "utter_perguntar_consumo_atual",
+    "eJy1kEEKwzAMBL/iB/QF/kopQjhqEDhykKVcTP5eQ9oecnGh7U0Lu7Nir22/hLYqbYDJuEgM7ThAcKEYniJzNZLu9UraPSxdWgypSPWFFXB23AcsNyOFlXR2MVQ4wgXQHPOX7MGf96JCqbdPOJX6av4QWjFveI7+tmK4L0mfjf828Rt/ewDoXs4G": "action_listen",
+    "eJy1kEkKwzAMRa/iA/QEvkopQjhqEDhykKVsTO5eQ9pNNw4ddvrwB/Gubb+EtiptgMm4SAztOEBwoRieInM1ku71Sto9LF1aDKlI9YUVcHbcB11uRgor6exiqHCEC6A55i+7B3/eiwqlvj7hVOpr+WRpxbzhe/S3E0O+JB0b/w3xyfoPKd8eus3u5A==": "action_salvar_dados_consumo",
+    "eJzNkM0JwzAMhVfxAJ3Aq5QihKMGgSMHWcrFZPca0l56caAt9KYH70d817ZfQluVNsBkXCSGdhwguFAMT5G5Gkn3eiXtHpYuLYZUpPrCCjg77oMuNyOFlXR2MVQ4wgXQHPOH3YM/70WFUl+fcCr1tXyytGLe8D363YkhX5KOjX+G+GT9/1K+PQCM5xWY": "action_listen"
+  }
+}

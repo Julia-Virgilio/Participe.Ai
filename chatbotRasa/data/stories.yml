@@ -1,0 +1,21 @@
+version: "3.1"
+
+stories:
+  - story: Previsão de consumo de água
+    steps:
+      - intent: consumir_agua
+      - action: utter_perguntar_consumo_atual
+      - intent: fornecer_dados_consumo
+      - action: action_fazer_previsao_consumo
+
+  - story: Previsão de consumo de energia
+    steps:
+      - intent: consumir_energia
+      - action: utter_perguntar_consumo_atual
+      - intent: fornecer_dados_consumo
+      - action: action_fazer_previsao_consumo
+
+  - story: Salvar dados de consumo manualmente
+    steps:
+      - intent: fornecer_dados_consumo
+      - action: action_salvar_dados_consumo
