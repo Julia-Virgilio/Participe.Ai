@@ -5,7 +5,7 @@ Multiplataforma de serviços básicos inclusiva, voltado para a gestão conscien
 
 1. Clone o repositório
     ```bash
-   git clone https://github.com/Julia-Virgilio/API-ADS-Labs](https://github.com/Julia-Virgilio/Participe.Ai
+   git clone https://github.com/Julia-Virgilio/Participe.Ai
 2. Entre no diretório
 
 
