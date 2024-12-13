@@ -7,7 +7,9 @@ Multiplataforma de serviços básicos inclusiva, voltado para a gestão conscien
     ```bash
    git clone https://github.com/Julia-Virgilio/Participe.Ai
 2. Entre no diretório
-
+3. No terminal, com o Docker Desktop aberto, insira o comando:
+    ```bash
+    docker-compose up --build
 
 ## Branch 
 1. feature - Partes da aplicação(controle de produção)
